@@ -1,4 +1,17 @@
+body{
+    height:100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .header, .hero-section,.footer{
     background-color: #1F2937;
     color:white;
+}
+.hero-section,.random-section,.quote-section,.action-section{
+    flex-grow: 1;
+}
+.random-section{
+    flex-grow: 1;
 }

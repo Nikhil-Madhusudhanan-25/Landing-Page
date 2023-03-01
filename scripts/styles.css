@@ -21,7 +21,7 @@ body{
 .header-links{
     display: flex;
     list-style-type: none;
-    gap: 5px;
+    gap: 20px;
     padding-left: 0px;
 }
 a{
@@ -50,8 +50,8 @@ a{
     
 }
 .logo,.hero-body{
-    padding-left: 100px;
+    padding-left: 190px;
 }
 .hero-body,.header-links{
-    padding-right: 40px;
+    padding-right: 190px;
 }

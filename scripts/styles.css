@@ -3,7 +3,7 @@ body{
     margin: 0px;
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
 .header, .hero-section,.footer{
@@ -50,7 +50,7 @@ a{
 .hero-body{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     height:250px;
     gap:60px;
 }
@@ -87,4 +87,43 @@ a{
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
+}
+.random-section{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*padding:20px 0px 40px;*/
+}
+.random-heading{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 40px 0px 50px;
+}
+.card-container{
+ display: flex; 
+ padding: 0px 360px 100px;  
+ text-align: center;
+ gap: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    height: 140px;
+    width: 140px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+    border-width: 4px;
+}
+.card-text{
+    padding-top: 10px;
+    font-size: 16px;
+    color: #636465;
+    font-weight: 600;
 }

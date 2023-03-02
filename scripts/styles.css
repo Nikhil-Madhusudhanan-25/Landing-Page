@@ -127,3 +127,21 @@ a{
     color: #636465;
     font-weight: 600;
 }
+.quote-section{
+    background-color: #E5E7EB;
+    /*flex-grow: 1;*/
+    padding: 100px 320px 80px;
+}
+.quote-body{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1F2937;
+}
+.quote-footer{
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+}

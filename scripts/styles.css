@@ -145,3 +145,40 @@ a{
     display: flex;
     justify-content: flex-end;
 }
+.action-section{
+    display:flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.action-box{
+    background-color: #3882F6;
+    color: white;
+    /*padding: 20px 150px 20px 180px;*/
+    flex-basis:70%;
+    display: flex;
+    padding-top:50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    gap: 180px;
+}
+.action-header{
+    font-size: 24px;
+    font-weight: bold;
+}
+.action-content{
+    /*flex-grow: 1;*/
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+}
+.action-content-body{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/*.button-padding{
+    padding-right: 250px;
+}*/
+.set-button-border{
+    border-style: solid;
+    border-color: white;
+}

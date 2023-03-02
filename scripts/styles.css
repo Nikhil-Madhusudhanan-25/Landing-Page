@@ -171,7 +171,7 @@ a{
     flex-direction: column;
     padding-left: 120px;
 }
-.action-content-body{
+.action-content-body, .footer{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -181,4 +181,9 @@ a{
 .set-button-border{
     border-style: solid;
     border-color: white;
+}
+.footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
